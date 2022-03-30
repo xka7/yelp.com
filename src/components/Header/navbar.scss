@@ -1,0 +1,44 @@
+nav {
+    height: 8vh;
+    button {
+        background: white;
+        color: white;
+        border: 1px solid white !important;
+    }
+    ul {
+        gap: 2rem;
+        a {
+            color: white !important;
+            font-weight: 700;
+            &:hover{
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+    form {
+        align-items: center;
+        gap: 2rem;
+        a, a:hover {
+            color: white;
+            font-weight: 700;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        .login {
+            padding: 8px;
+            &:hover {
+                border-bottom: 1px solid white;
+            }
+        }
+        .signup {
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: .5rem 1rem;
+            transition: 250ms ease;
+            &:hover{
+                background: white;
+                color: #666;
+            }
+        }
+    }
+}
